@@ -1,5 +1,5 @@
-export class Square extends Rectangle {
-    get area(size) {
-        return size * size
+module.exports = {
+    area: number = function(size) {
+        return size * size;
     }
 }

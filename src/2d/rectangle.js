@@ -1,3 +1,5 @@
-export class Rectangle {
+// TODO: Stuff
 
-}
+exports = {
+    
+};
