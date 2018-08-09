@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## v0.1.0
 Basic Functionality for Squares and Rectangles
 
+### 0.0.3-alpha
+- Added Better README
+- Fixed ESLint / Codacy Issues
+
 ### 0.0.2-alpha
 - Area for Squares
 
