@@ -18,6 +18,6 @@ A JavaScript Library of Math Functions for 2D and 3D Shapes.
 3. Do Math!
 
 ## Doing Math
-Once you require the package, you can start doing math. We can find the area of a square for example by doing, `shapemath.square.area(10)`. This would return a value of 10. You can store this in a variable or use it in a function. For example, `console.log(shapemath.square.area(131.2));` would print out, "10"
+Once you require the package, you can start doing math. We can find the area of a square for example by doing, `shapemath.square.area(5)`. This would return a value of 25, where 5 is the side length. You can store this in a variable or use it in a function. For example, `console.log(shapemath.square.area(5));` would print out, "25"
 
 You can see all the possible functions on the documentation pages which are comming soon!
