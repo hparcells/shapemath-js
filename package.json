@@ -1,6 +1,6 @@
 {
   "name": "shapemath-js",
-  "version": "0.0.3-alpha",
+  "version": "0.1.0",
   "description": "A JavaScript Library of Math Functions for 2D and 3D Shapes",
   "main": "src/index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/hparcells/ShapeMath-JS#readme",
   "keywords": [
     "math"
-  ]
+  ],
+  "dependencies": {
+    "math-sqrt": "^1.0.1"
+  }
 }

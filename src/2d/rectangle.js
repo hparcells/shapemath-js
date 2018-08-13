@@ -1,5 +1,19 @@
-// TODO: Stuff
+module.exports = {
+    area : number = function(width, height) {
+        return width * height;
+    },
 
-exports = {
-    
+    perimeterBySides : number = function(width, height) {
+        return width + width + height + height;
+    },
+
+    missingInteriorAngle : number = function(angle1, angle2, angle3) {
+        return 360 - (angle1 + angle2 + angle3);
+    },
+
+    missingExteriorAngle : number = function(angle1, angle2, angle3) {
+        const total = angle1 + angle2 + angle3;
+
+        return 360 - total;
+    }
 };
