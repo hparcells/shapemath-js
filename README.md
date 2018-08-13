@@ -2,13 +2,14 @@
 ![status](https://img.shields.io/badge/status-active-brightgreen.svg)
 ![maintained](https://img.shields.io/badge/maintained-yes-brightgreen.svg)
 
-
 [![GitHub issues](https://img.shields.io/github/issues/hparcells/ShapeMath-JS.svg)](https://github.com/hparcells/ShapeMath-JS)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/hparcells/ShapeMath-JS.svg)](https://github.com/hparcells/ShapeMath-JS)
 [![GitHub](https://img.shields.io/github/license/hparcells/ShapeMath-JS.svg)](https://github.com/hparcells/ShapeMath-JS)
 
 [![NpmVersion](https://img.shields.io/npm/v/shapemath-js.svg)](https://www.npmjs.com/package/shapemath-js)
 [![npm](https://img.shields.io/npm/dt/shapemath-js.svg)](https://www.npmjs.com/package/shapemath-js)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d65e991e9e2a4d488f1b29dc6cdfe42a)](https://www.codacy.com/project/hparcells/ShapeMath-JS/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hparcells/ShapeMath-JS&amp;utm_campaign=Badge_Grade_Dashboard)
 
 A JavaScript Library of Math Functions for 2D and 3D Shapes.
 
