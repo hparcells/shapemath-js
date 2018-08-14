@@ -48,4 +48,3 @@ test("circle.circumferenceByRadius(7)", circle.circumferenceByRadius(7) == 43.98
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));
-console.log(process.env.REPO_TOKEN);
