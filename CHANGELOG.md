@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## v1.0.0
 Basic Functionality for 2D Shapes
 
+### v0.3.0 [8/14/18]
+#### Additions
+- Added Test Script
+
+#### Fixes
+- Fixed Circle Area Code
+
 ### v0.2.0 [8/14/18]
 #### Additions
 - Added Basic Functionality for: 
