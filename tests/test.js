@@ -41,3 +41,5 @@ test("circle.areaByRadius(7)", circle.areaByRadius(7) == 153.93804002589985);
 test("circle.areaByDiamater(14)", circle.areaByDiameter(14) == 153.93804002589985);
 test("circle.circumferenceByDiameter(14)", circle.circumferenceByDiameter(14) == 43.982297150257105338477007365913);
 test("circle.circumferenceByRadius(7)", circle.circumferenceByRadius(7) == 43.982297150257105338477007365913);
+
+console.log(colors.rainbow("\nEverything Worked"));
