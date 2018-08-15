@@ -3,6 +3,9 @@ const rectangle = require("../src/2d/rectangle");
 const triangle = require("../src/2d/triangle");
 const line = require("../src/2d/line");
 const circle = require("../src/2d/circle");
+const rhombus = require("../src/2d/rhombus");
+const kite = require("../src/2d/kite");
+const trapezoid = require("../src/2d/trapezoid");
 
 var colors = require("colors");
 
@@ -45,6 +48,25 @@ test("circle.areaByRadius(7)", circle.areaByRadius(7) === 153.93804002589985);
 test("circle.areaByDiamater(14)", circle.areaByDiameter(14) === 153.93804002589985);
 test("circle.circumferenceByDiameter(14)", circle.circumferenceByDiameter(14) === 43.982297150257105338477007365913);
 test("circle.circumferenceByRadius(7)", circle.circumferenceByRadius(7) === 43.982297150257105338477007365913);
+
+// Rhombus
+test("rhombus.areaByDiagonals(8, 12)", rhombus.areaByDiagonals(8, 12) === 48);
+test("rhombus.areaByBaseAndHeight(5, 4)", rhombus.areaByBaseAndHeight(5, 4) === 20);
+test("rhombus.perimeterBySides(5, 4)", rhombus.perimeterBySides(5, 4) === 18);
+test("rhombus.missingInteriorAngle(129, 129, 51)", rhombus.missingInteriorAngle(129, 129, 51) === 51);
+test("rhombus.missingExteriorAngle(51, 51, 129)", rhombus.missingExteriorAngle(51, 51, 129) === 129);
+
+// Kite
+test("kite.areaByDiagonals(8, 12)", kite.areaByDiagonals(8, 12) === 48);
+test("kite.areaByBaseAndHeight(5, 4)", kite.areaByBaseAndHeight(5, 4) === 20);
+test("kite.perimeterBySides(5, 4)", kite.perimeterBySides(5, 4) === 18);
+test("kite.missingInteriorAngle(129, 129, 51)", kite.missingInteriorAngle(129, 129, 51) === 51);
+test("kite.missingExteriorAngle(51, 51, 129)", kite.missingExteriorAngle(51, 51, 129) === 129);
+
+// Trapezoid
+test("trapezoid.area(7, 10, 3)", trapezoid.area(7, 10, 3) === 25.5);
+test("trapezoid.missingInteriorAngle(95, 27, 85)", trapezoid.missingInteriorAngle(95, 27, 85) === 153);
+test("trapezoid.missingExteriorAngle(85, 153, 95)", trapezoid.missingExteriorAngle(85, 153, 95) === 27);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));

@@ -5,7 +5,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## v1.0.0
-Basic Functionality for 2D Shapes
+Basic Functionality for 2D Shapes No More than 4 Sides
+
+### v1.0.0 [8/15/18]
+#### Additions
+- Added Functionality for:
+    - Rhombus
+    - Kite
+    - Trapezoid
 
 ### v0.3.0 [8/14/18]
 #### Additions
