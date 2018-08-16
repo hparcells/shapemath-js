@@ -7,6 +7,9 @@ const rhombus = require("../src/2d/rhombus");
 const kite = require("../src/2d/kite");
 const trapezoid = require("../src/2d/trapezoid");
 
+const cube = require("../src/3d/cube");
+const rectangularPrism = require("../src/3d/rectangularPrism");
+
 var colors = require("colors");
 
 // Test Method
@@ -67,6 +70,14 @@ test("kite.missingExteriorAngle(51, 51, 129)", kite.missingExteriorAngle(51, 51,
 test("trapezoid.area(7, 10, 3)", trapezoid.area(7, 10, 3) === 25.5);
 test("trapezoid.missingInteriorAngle(95, 27, 85)", trapezoid.missingInteriorAngle(95, 27, 85) === 153);
 test("trapezoid.missingExteriorAngle(85, 153, 95)", trapezoid.missingExteriorAngle(85, 153, 95) === 27);
+
+// Cube
+test("cube.volume(2)", cube.volume(2) === 8);
+test("cube.surfaceArea(2)", cube.surfaceArea(2) == 24);
+
+// Rectangular Prism
+test("rectangularPrism.volume(1, 2, 3)", rectangularPrism.volume(1, 2, 3) === 6);
+test("rectangularPrism.surfaceArea(1, 2, 3)", rectangularPrism.surfaceArea(1, 2, 3) == 22);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));

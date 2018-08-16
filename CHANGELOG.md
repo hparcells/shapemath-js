@@ -4,8 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## v1.1.0
+## v1.1.1
 Basic Functionality for 3D Shapes
+
+### v1.1.1 [8/16/18]
+- Added Tests for Cubes and Rectangular Prisms
 
 ### v1.1.0 [8/16/18]
 - Volume and Surface Area For:
