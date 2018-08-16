@@ -12,4 +12,4 @@ module.exports = {
 
         return 360 - total;
     }
-}
+};
