@@ -9,6 +9,7 @@ const trapezoid = require("../src/2d/trapezoid");
 
 const cube = require("../src/3d/cube");
 const rectangularPrism = require("../src/3d/rectangularPrism");
+const sphere = require("../src/3d/sphere");
 
 var colors = require("colors");
 
@@ -78,6 +79,10 @@ test("cube.surfaceArea(2)", cube.surfaceArea(2) == 24);
 // Rectangular Prism
 test("rectangularPrism.volume(1, 2, 3)", rectangularPrism.volume(1, 2, 3) === 6);
 test("rectangularPrism.surfaceArea(1, 2, 3)", rectangularPrism.surfaceArea(1, 2, 3) == 22);
+
+// Sphere
+test("sphere.volumeByRadius(5)", sphere.volumeByRadius(5) === 523.5987755982987);
+test("sphere.volumeByDiameter(10)", sphere.volumeByDiameter(10) === 523.5987755982987);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));
