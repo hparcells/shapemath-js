@@ -11,6 +11,7 @@ Basic Functionality for 3D Shapes
 #### Additions
 - Sphere Math
     - Volume
+    - Diameter
 
 ### v1.1.1 [8/16/18]
 #### Additions
