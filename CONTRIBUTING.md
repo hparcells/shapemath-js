@@ -14,7 +14,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 4. Create a pull request with the pull request template.
 
 ## Report bugs using GitHub's Issues
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy! Make sure to use the bug report template!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/hparcells/ShapeMath-JS/issues/new/choose); it's that easy! Make sure to use the bug report template!
 
 **Great Bug Reports** tend to have:
 
