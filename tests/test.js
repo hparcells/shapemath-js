@@ -10,6 +10,7 @@ const trapezoid = require("../src/2d/trapezoid");
 const cube = require("../src/3d/cube");
 const rectangularPrism = require("../src/3d/rectangularPrism");
 const sphere = require("../src/3d/sphere");
+const cylinder = require("../src/3d/cylinder");
 
 var colors = require("colors");
 
@@ -85,6 +86,10 @@ test("sphere.volumeByRadius(5)", sphere.volumeByRadius(5) === 523.5987755982987)
 test("sphere.volumeByDiameter(10)", sphere.volumeByDiameter(10) === 523.5987755982987);
 test("sphere.surfaceAreaByRadius(9)", sphere.surfaceAreaByRadius(9) === 1017.8760197630929);
 test("sphere.surfaceAreaByDiameter(18)", sphere.surfaceAreaByDiameter(18) === 1017.8760197630929);
+
+// Cylinder
+test("cylinder.volumeByRadius(2, 5)", cylinder.volumeByRadius(2, 5) === 62.83185307179586);
+test("cylinder.volumeByDiameter(4, 5)", cylinder.volumeByDiameter(4, 5) === 62.83185307179586);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));
