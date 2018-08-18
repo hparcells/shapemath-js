@@ -7,12 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## v1.3.0
 Basic Functionality for 3D Shapes
 
-### v1.3.0
+### v1.3.0 [8/18/18]
 #### Additions
 - Cylinder Math
     - Volume
+    - Surface Area
 
-### v1.2.0
+### v1.2.0 [8/17/28]
 #### Additions
 - Sphere Math
     - Volume
