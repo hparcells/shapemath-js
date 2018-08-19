@@ -2,7 +2,7 @@ const sqrt = require("math-sqrt");
 
 module.exports = {
     area : number = function(size) {
-        return size * size;
+        return Math.pow(size, 2);
     },
 
     perimeterBySide : number = function(size) {

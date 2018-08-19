@@ -6,15 +6,15 @@ module.exports = {
     },
 
     hypotenuse : number = function(sideLength1, sideLength2) {
-        let side1 = sideLength1 * sideLength1;
-        let side2 = sideLength2 * sideLength2;
+        let side1 = Math.pow(sideLength1, 2);
+        let side2 = Math.pow(sideLength2, 2);
         
         return sqrt(side1 + side2);
     },
 
     missingSide : number = function(side, hypotenuse) {
-        let hypotenuseSquared = hypotenuse * hypotenuse;
-		let sideSquared = side * side;
+        let hypotenuseSquared = Math.pow(hypotenuse, 2);
+		let sideSquared = Math.pow(side, 2);
 		
 		return sqrt(hypotenuseSquared - sideSquared);
     },

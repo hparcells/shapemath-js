@@ -1,6 +1,6 @@
 module.exports = {
     volumeByRadius : number = function(radius, height) {
-        let radiusSquared = radius * radius;
+        let radiusSquared = Math.pow(radius, 2);
         let circle = Math.PI * radiusSquared;
 
         return circle * height;
@@ -8,7 +8,7 @@ module.exports = {
 
     volumeByDiameter : number = function(diameter, height) {
         let radius = diameter / 2;
-        let radiusSquared = radius * radius;
+        let radiusSquared = Math.pow(radius, 2);
         let circle = Math.PI * radiusSquared;
 
         return circle * height;
@@ -17,7 +17,7 @@ module.exports = {
     surfaceAreaByDiameter : number = function(diameter, height) {
         let radius = diameter / 2;
 
-        let radiusSquared = radius * radius;
+        let radiusSquared = Math.pow(radius, 2);
         let oneCircle = Math.PI * radiusSquared;
         let twoCircles = oneCircle * 2;
 
@@ -28,7 +28,7 @@ module.exports = {
     },
 
     surfaceAreaByRadius : number = function(radius, height) {
-        let radiusSquared = radius * radius;
+        let radiusSquared = Math.pow(radius, 2);
         let oneCircle = Math.PI * radiusSquared;
         let twoCircles = oneCircle * 2;
 
