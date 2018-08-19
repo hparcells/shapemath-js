@@ -11,6 +11,7 @@ const cube = require("../src/3d/cube");
 const rectangularPrism = require("../src/3d/rectangularPrism");
 const sphere = require("../src/3d/sphere");
 const cylinder = require("../src/3d/cylinder");
+const cone = require("../src/3d/cone");
 
 var colors = require("colors");
 
@@ -92,6 +93,10 @@ test("cylinder.volumeByRadius(2, 5)", cylinder.volumeByRadius(2, 5) === 62.83185
 test("cylinder.volumeByDiameter(4, 5)", cylinder.volumeByDiameter(4, 5) === 62.83185307179586);
 test("cylinder.surfaceAreaByRadius(5, 2)", cylinder.surfaceAreaByRadius(5, 2) === 219.9114857512855);
 test("cylinder.surfaceAreaByDiameter(10, 2)", cylinder.surfaceAreaByDiameter(10, 2) === 219.9114857512855);
+
+// Cone
+test("cone.volumeByRadius(2, 7)", cone.volumeByRadius(2, 7) === 29.321531433504738);
+test("cone.volumeByDiameter(4, 7)", cone.volumeByDiameter(4, 7) === 29.321531433504738);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));

@@ -11,6 +11,7 @@ const cube = require("./3d/cube");
 const rectangularPrism = require("./3d/rectangularPrism");
 const sphere = require("./3d/sphere");
 const cylinder = require("./3d/cylinder");
+const cone = require("./3d/cone");
 
 module.exports = {
     square,
@@ -25,5 +26,6 @@ module.exports = {
     cube,
     rectangularPrism,
     sphere,
-    cylinder
+    cylinder,
+    cone
 };
