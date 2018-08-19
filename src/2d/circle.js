@@ -1,15 +1,15 @@
 module.exports = {
     areaByRadius : number = function(radius) {
-        let radSq = radius * radius;
+        let radiusSquared = radius * radius;
 
-        return Math.PI * radSq;
+        return Math.PI * radiusSquared;
     },
 
     areaByDiameter : number = function(diameter) {
         let radius = diameter / 2;
-        let radSq = radius * radius;
+        let radiusSquared = radius * radius;
         
-		return Math.PI * radSq;
+		return Math.PI * radiusSquared;
     },
 
     circumferenceByDiameter : number = function(diameter) {

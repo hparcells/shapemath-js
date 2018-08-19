@@ -13,10 +13,10 @@ module.exports = {
     },
 
     missingSide : number = function(side, hypotenuse) {
-        let hypotenuseSq = hypotenuse * hypotenuse;
-		let sideSq = side * side;
+        let hypotenuseSquared = hypotenuse * hypotenuse;
+		let sideSquared = side * side;
 		
-		return sqrt(hypotenuseSq - sideSq);
+		return sqrt(hypotenuseSquared - sideSquared);
     },
 
     missingInteriorAngle : number = function(angle1, angle2) {

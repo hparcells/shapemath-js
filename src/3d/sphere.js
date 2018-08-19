@@ -1,31 +1,31 @@
 module.exports = {
     volumeByRadius : number = function(radius) {
-        let radCu = radius * radius * radius;
-        let piRadCu = Math.PI * radCu;
+        let radiusCubed = radius * radius * radius;
+        let piRadiusCubed = Math.PI * radiusCubed;
 
-        return (4/3) * piRadCu;
+        return (4/3) * piRadiusCubed;
     },
 
     volumeByDiameter : number = function(diameter) {
         let radius = diameter / 2;
-        let radCu = radius * radius * radius;
-        let piRadCu = Math.PI * radCu;
+        let radiusCubed = radius * radius * radius;
+        let piRadiusCubed = Math.PI * radiusCubed;
 
-        return (4/3) * piRadCu;
+        return (4/3) * piRadiusCubed;
     },
 
     surfaceAreaByRadius : number = function(radius) {
-        let radSq = radius * radius;
-        let piRadSq = Math.PI * radSq;
+        let radiusSquared = radius * radius;
+        let piRadiusSquared = Math.PI * radiusSquared;
 
-        return 4 * piRadSq;
+        return 4 * piRadiusSquared;
     },
 
     surfaceAreaByDiameter : number = function(diameter) {
         let radius = diameter / 2;
-        let radSq = radius * radius;
-        let piRadSq = Math.PI * radSq;
+        let radiusSquared = radius * radius;
+        let piRadiusSquared = Math.PI * radiusSquared;
 
-        return 4 * piRadSq;
+        return 4 * piRadiusSquared;
     }
 };
