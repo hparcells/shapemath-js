@@ -11,6 +11,7 @@ Basic Functionality for 3D Shapes
 #### Additions
 - Cone Math
     - Volume
+    - Surface Area
 
 ### v1.3.0 [8/18/18]
 #### Additions

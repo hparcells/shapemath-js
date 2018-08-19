@@ -97,6 +97,8 @@ test("cylinder.surfaceAreaByDiameter(10, 2)", cylinder.surfaceAreaByDiameter(10,
 // Cone
 test("cone.volumeByRadius(2, 7)", cone.volumeByRadius(2, 7) === 29.321531433504738);
 test("cone.volumeByDiameter(4, 7)", cone.volumeByDiameter(4, 7) === 29.321531433504738);
+test("cone.surfaceAreaByRadius(7, 2)", cone.surfaceAreaByRadius(7, 2) === 314.0360182443304);
+test("cone.surfaceAreaByDiameter(14, 2)", cone.surfaceAreaByDiameter(14, 2) === 314.0360182443304);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));
