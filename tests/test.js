@@ -40,7 +40,8 @@ test("rectangle.missingInteriorAngle(90, 90, 90)", rectangle.missingInteriorAngl
 test("rectangle.missingExteriorAngle(90, 90, 90)", rectangle.missingExteriorAngle(90, 90, 90) === 90);
 
 // Triangle
-test("triangle.area(10, 7)", triangle.area(10, 7) === 35);
+test("triangle.areaByBaseAndHeight(10, 7)", triangle.areaByBaseAndHeight(10, 7) === 35);
+test("triangle.areaBySides(3, 4, 4)", triangle.areaBySides(3, 4, 4) === 5.562148865321747);
 test("triangle.hypotenuse(3, 4)", triangle.hypotenuse(3, 4) === 5);
 test("triangle.missingSide(4, 5)", triangle.missingSide(4, 5) === 3);
 test("triangle.missingInteriorAngle(51, 42)", triangle.missingInteriorAngle(51, 42) === 87);

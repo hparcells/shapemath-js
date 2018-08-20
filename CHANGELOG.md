@@ -4,8 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## v2.0.0
+Basic Functionality for Most Basic 3D Shapes
+
+### v2.0.0
+#### Additions
+- Added Function to Triangle to Use Heron's Formula.
+
+#### Fixes
+- **IMPORTANT:** v1.6.0's Breaking Changes Should Be Here Too.
+- **BREAKING CHANGE:** `triangle.area` has been renamed to `triangle.areaByBaseAndHeight`.
+
 ## v1.6.0
-Basic Functionality for 3D Shapes
+Basic Functionality for Some Basic 3D Shapes
 
 ### v1.6.0 [8/20/18]
 #### Additions

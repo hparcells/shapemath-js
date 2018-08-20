@@ -1,8 +1,13 @@
 const sqrt = require("math-sqrt");
+const triangleArea = require("triangle-area");
 
 module.exports = {
-    area : number = function(base, height) {
+    areaByBaseAndHeight : number = function(base, height) {
         return (base * height) / 2;
+    },
+
+    areaBySides : number = function(sideA, sideB, sideC) {
+        return triangleArea(sideA, sideB, sideC);
     },
 
     hypotenuse : number = function(sideLength1, sideLength2) {
