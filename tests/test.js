@@ -102,8 +102,10 @@ test("cone.surfaceAreaByRadius(7, 2)", cone.surfaceAreaByRadius(7, 2) === 314.03
 test("cone.surfaceAreaByDiameter(14, 2)", cone.surfaceAreaByDiameter(14, 2) === 314.0360182443304);
 
 // Triangular Prism
-test("triangularPrism.volume(4, 5, 6)", triangularPrism.volume(4, 5, 6) === 60);
-test("triangularPrism.surfaceArea(5, 12, 13, 5, 12, 4)", triangularPrism.surfaceArea(5, 12, 13, 5, 12, 4) === 180);
+test("triangularPrism.volumeByBaseAndHeight(4, 5, 6)", triangularPrism.volumeByBaseAndHeight(4, 5, 6) === 60);
+test("triangularPrism.volumeByEdges(3, 4, 3, 2)", triangularPrism.volumeByEdges(3, 4, 3, 2) === 8.94427190999916);
+test("triangularPrism.surfaceAreaByBaseAndHeight(5, 12, 13, 5, 12, 4)", triangularPrism.surfaceAreaByBaseAndHeight(5, 12, 13, 5, 12, 4) === 180);
+test("triangularPrism.surfaceAreaByEdges(3, 4, 3, 2)", triangularPrism.surfaceAreaByEdges(3, 4, 3, 2) === 28.94427190999916);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));
