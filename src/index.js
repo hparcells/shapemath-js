@@ -12,6 +12,7 @@ const rectangularPrism = require("./3d/rectangularPrism");
 const sphere = require("./3d/sphere");
 const cylinder = require("./3d/cylinder");
 const cone = require("./3d/cone");
+const triangularPrism = require("./3d/triangularPrism");
 
 module.exports = {
     square,
@@ -27,5 +28,6 @@ module.exports = {
     rectangularPrism,
     sphere,
     cylinder,
-    cone
+    cone,
+    triangularPrism
 };
