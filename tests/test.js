@@ -14,6 +14,7 @@ const sphere = require("../src/3d/sphere");
 const cylinder = require("../src/3d/cylinder");
 const cone = require("../src/3d/cone");
 const triangularPrism = require("../src/3d/triangularPrism");
+const hemisphere = require("../src/3d/hemisphere");
 
 var colors = require("colors");
 
@@ -114,6 +115,12 @@ test("triangularPrism.volumeByBaseAndHeight(4, 5, 6)", triangularPrism.volumeByB
 test("triangularPrism.volumeByEdges(3, 4, 3, 2)", triangularPrism.volumeByEdges(3, 4, 3, 2) === 8.94427190999916);
 test("triangularPrism.surfaceAreaByBaseAndHeight(5, 12, 13, 5, 12, 4)", triangularPrism.surfaceAreaByBaseAndHeight(5, 12, 13, 5, 12, 4) === 180);
 test("triangularPrism.surfaceAreaByEdges(3, 4, 3, 2)", triangularPrism.surfaceAreaByEdges(3, 4, 3, 2) === 28.94427190999916);
+
+// Hemisphere
+test("hemisphere.volumeByRadius(5)", hemisphere.volumeByRadius(5) === 261.7993877991494);
+test("hemisphere.volumeByDiameter(10)", hemisphere.volumeByDiameter(10) === 261.7993877991494);
+test("hemisphere.surfaceAreaByRadius(12)", hemisphere.surfaceAreaByRadius(12) === 1357.1680263507906);
+test("hemisphere.surfaceAreaByDiameter(24)", hemisphere.surfaceAreaByDiameter(24) === 1357.1680263507906);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));
