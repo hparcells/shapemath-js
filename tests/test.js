@@ -6,6 +6,7 @@ const circle = require("../src/2d/circle");
 const rhombus = require("../src/2d/rhombus");
 const kite = require("../src/2d/kite");
 const trapezoid = require("../src/2d/trapezoid");
+const semicircle = require("../src/2d/semicircle");
 
 const cube = require("../src/3d/cube");
 const rectangularPrism = require("../src/3d/rectangularPrism");
@@ -75,6 +76,12 @@ test("kite.missingExteriorAngle(51, 51, 129)", kite.missingExteriorAngle(51, 51,
 test("trapezoid.area(7, 10, 3)", trapezoid.area(7, 10, 3) === 25.5);
 test("trapezoid.missingInteriorAngle(95, 27, 85)", trapezoid.missingInteriorAngle(95, 27, 85) === 153);
 test("trapezoid.missingExteriorAngle(85, 153, 95)", trapezoid.missingExteriorAngle(85, 153, 95) === 27);
+
+// Semicircle
+test("semicircle.areaByRadius(5)", semicircle.areaByRadius(5) === 39.269908169872416);
+test("semicircle.areaByDiameter(10)", semicircle.areaByDiameter(10) === 39.269908169872416);
+test("semicircle.circumferenceByDiameter(20)", semicircle.circumferenceByDiameter(20) === 51.41592653589793);
+test("semicircle.circumferenceByRadius(10)", semicircle.circumferenceByRadius(10) === 51.41592653589793);
 
 // Cube
 test("cube.volume(2)", cube.volume(2) === 8);
