@@ -15,6 +15,7 @@ const cylinder = require("./3d/cylinder");
 const cone = require("./3d/cone");
 const triangularPrism = require("./3d/triangularPrism");
 const hemisphere = require("./3d/hemisphere");
+const squarePyramid = require("./3d/squarePyramid")
 
 module.exports = {
     square,
@@ -33,5 +34,6 @@ module.exports = {
     cylinder,
     cone,
     triangularPrism,
-    hemisphere
+    hemisphere,
+    squarePyramid
 };

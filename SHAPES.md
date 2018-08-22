@@ -5,7 +5,7 @@ issue to request a new shape, or make a pull request of your own.
 Some shapes have question marks next to then, meaning I am considering making them.
 
 ## 2D
-### 3 Sides
+### 3 or Less Sides
 - ~~Line~~ (Yes I Consider a Line a 2D Shape Deal with It)
 - ~~Triangle~~
 
@@ -34,7 +34,7 @@ Some shapes have question marks next to then, meaning I am considering making th
 - Hexagonal Prism
 
 ### Pyramids
-- Square Based Pyramid
+- ~~Square Based Pyramid~~
 - Triangle Based Pyramid
 
 ### Rounded
