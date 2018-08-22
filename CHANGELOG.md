@@ -7,24 +7,24 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## v2.4.0
 Basic Functionality for Most Basic 3D Shapes
 
-### v2.4.0
+### v2.4.0 [8/22/18]
 #### Additions
 - Square Pyramid Math
     - Volume
 
-### v2.3.0
+### v2.3.0 [8/21/18]
 #### Additions
 - Hemisphere Math
     - Volume
     - Surface Area
 
-### v2.2.0
+### v2.2.0 [8/21/18]
 #### Additions
 - Semicircle Math
     - Area
     - Circumference
 
-### v2.0.0
+### v2.0.0 [8/20/18]
 #### Additions
 - Added Function to Triangle to Use Heron's Formula.
 
