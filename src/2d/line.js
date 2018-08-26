@@ -11,4 +11,6 @@ module.exports = {
 		
 		return finalSlope1 === slope2;
     }
+
+    // TODO: Symmetry
 };

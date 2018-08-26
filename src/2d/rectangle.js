@@ -16,4 +16,6 @@ module.exports = {
 
         return 360 - total;
     }
+
+    // TODO: Diagonal
 };
