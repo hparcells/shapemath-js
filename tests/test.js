@@ -7,6 +7,8 @@ const rhombus = require("../src/2d/rhombus");
 const kite = require("../src/2d/kite");
 const trapezoid = require("../src/2d/trapezoid");
 const semicircle = require("../src/2d/semicircle");
+const oval = require("../src/2d/oval");
+const ellipse = require("../src/2d/ellipse");
 
 const cube = require("../src/3d/cube");
 const rectangularPrism = require("../src/3d/rectangularPrism");
@@ -125,6 +127,12 @@ test("hemisphere.surfaceAreaByDiameter(24)", hemisphere.surfaceAreaByDiameter(24
 
 // Square Pyramid
 test("squarePyramid.volume(5, 5, 7)", squarePyramid.volume(5, 5, 7) === 58.33333333333333);
+
+// Oval
+test("oval.area(3, 5)", oval.area(3, 5) === 47.12388980384689);
+
+// Ellipse
+test("ellipse.area(3, 5)", ellipse.area(3, 5) === 47.12388980384689);
 
 // Done
 console.log(colors.rainbow("\nEverything Worked"));

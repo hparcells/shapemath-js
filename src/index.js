@@ -7,6 +7,8 @@ const rhombus = require("./2d/rhombus");
 const kite = require("./2d/kite");
 const trapezoid = require("./2d/trapezoid");
 const semicircle = require("./2d/semicircle");
+const oval = require("./2d/oval");
+const ellipse = require("./2d/ellipse");
 
 const cube = require("./3d/cube");
 const rectangularPrism = require("./3d/rectangularPrism");
@@ -27,6 +29,8 @@ module.exports = {
     kite,
     trapezoid,
     semicircle,
+    oval,
+    ellipse,
 
     cube,
     rectangularPrism,

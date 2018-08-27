@@ -23,7 +23,7 @@ Some shapes have question marks next to then, meaning I am considering making th
 ### Non-Sided
 - ~~Circle~~
 - ~~Semicircle~~
-- Oval / Ellipse
+- ~~Oval / Ellipse~~
 
 ## 3D
 ### Prisms
