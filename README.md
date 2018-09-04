@@ -1,5 +1,5 @@
 # ShapeMath-JS
-![status](https://img.shields.io/badge/status-active-brightgreen.svg)
+![status](https://img.shields.io/badge/status-completed-brightgreen.svg)
 ![maintained](https://img.shields.io/badge/maintained-yes-brightgreen.svg)
 
 [![GitHub issues](https://img.shields.io/github/issues/hparcells/ShapeMath-JS.svg)](https://github.com/hparcells/ShapeMath-JS)
@@ -27,8 +27,5 @@ Once you require the package, you can start doing math. We can find the area of 
 You can see all the possible functions on the documentation pages which are coming soon!
 The webpage is already created [here](https://shapemathjsdocs.netlify.com/) so you can see as it gets updated.
 
-## Roadmap
-- More 2D Shapes (Soon)
-- More Complex Math for Shapes (Later)
-- 3D Shapes (Soon)
-- Documentation (Soon)
+## Completed Project
+The completed status of this project means I will not be actively developing this, other than small bug fixes, and responding to pull requests and issues represented by the maintained badge. You can feel free to open a pull request with new features if you choose to do so.
