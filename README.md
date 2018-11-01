@@ -24,8 +24,7 @@ A JavaScript Library of Math Functions for 2D and 3D Shapes.
 ## Doing Math
 Once you require the package, you can start doing math. We can find the area of a square for example by doing, `shapemath.square.area(5)`. This would return a value of 25, where 5 is the side length. You can store this in a variable or use it in a function. For example, `console.log(shapemath.square.area(5));` would print out, "25"
 
-You can see all the possible functions on the documentation pages which are coming soon!
-The webpage is already created [here](https://shapemathjsdocs.netlify.com/) so you can see as it gets updated.
+The documentation to all the functions can be found at [https://hparcells.me/documentation/shapemath-js/site/](https://hparcells.me/documentation/shapemath-js/site/).
 
 ## Completed Project
 The completed status of this project means I will not be actively developing this, other than small bug fixes, and responding to pull requests and issues represented by the maintained badge. You can feel free to open a pull request with new features if you choose to do so.
