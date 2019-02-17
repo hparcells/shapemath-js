@@ -1,6 +1,6 @@
 # ShapeMath-JS
 ![status](https://img.shields.io/badge/status-completed-brightgreen.svg)
-![maintained](https://img.shields.io/badge/maintained-yes-brightgreen.svg)
+![maintained](https://img.shields.io/badge/maintained-no%20(as%20of%202018)-red.svg)
 
 [![GitHub issues](https://img.shields.io/github/issues/hparcells/ShapeMath-JS.svg)](https://github.com/hparcells/ShapeMath-JS)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/hparcells/ShapeMath-JS.svg)](https://github.com/hparcells/ShapeMath-JS)
