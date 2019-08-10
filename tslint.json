@@ -86,6 +86,7 @@
     "no-this-before-super": [2],
     "no-var": [2],
     "prefer-const": [true],
-    "prefer-spread": [2]
+    "prefer-spread": [2],
+    "whitespace": [true, "check-decl", "check-module", "check-separator", "check-rest-spread", "check-type", "check-type-operator", "check-preblock", "check-postbrace"]
   }
 }
