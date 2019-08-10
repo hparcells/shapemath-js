@@ -30,3 +30,9 @@ export function perimeterBySides(side1: number, side2: number): number {
 
   return side1 + side1 + side2 + side2;
 }
+
+export class Kite {
+  public hi(): string {
+    return 'h';
+  }
+}

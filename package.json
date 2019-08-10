@@ -1,6 +1,6 @@
 {
   "name": "shapemath-js",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "A JavaScript library of math functions for 2D and 3D shapes.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
