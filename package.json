@@ -12,10 +12,10 @@
     "test-local": "jest --config jestconfig.json --coverage",
     "test": "jest --config jestconfig.json --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "build": "tsc"
-  },
+  },  
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hparcells/shapemath.js.git"
+    "url": "git+https://github.com/hparcells/shapemath-js.git"
   },
   "keywords": [
     "math",
@@ -24,9 +24,9 @@
   "author": "Hunter Parcells",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hparcells/shapemath.js/issues"
+    "url": "https://github.com/hparcells/shapemath-js/issues"
   },
-  "homepage": "https://github.com/hparcells/shapemath.js#readme",
+  "homepage": "https://github.com/hparcells/shapemath-js#readme",
   "devDependencies": {
     "@types/jest": "^24.0.17",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
