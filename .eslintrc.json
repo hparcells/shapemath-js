@@ -1,0 +1,12 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "typescript"
+  ],
+  "parserOptions":  {
+    "ecmaVersion":  2018,
+    "sourceType":  "module",
+    "project": "./tsconfig.json"  
+  }
+}
