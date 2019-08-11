@@ -26,6 +26,9 @@ describe('area(majorRadius, minorRadius)', () => {
   it('Finds the area correctly.', () => {
     expect(ellipse.area(10, 5)).toBe(157.07963267948966);
   });
+  it('Returned type is number.', () => {
+    expect(typeof ellipse.area(10, 5)).toBe('number');
+  });
 });
 describe('majorRadius(area, minorRadius)', () => {
   it('Providing non-numbers throws error.', () => {
@@ -53,6 +56,9 @@ describe('majorRadius(area, minorRadius)', () => {
   it('Finds the major radius correctly.', () => {
     expect(ellipse.majorRadius(15, 2)).toBe(2.3873241463784303);
   });
+  it('Returned type is number.', () => {
+    expect(typeof ellipse.majorRadius(10, 5)).toBe('number');
+  });
 });
 describe('minorRadius(area, minorRadius)', () => {
   it('Providing non-numbers throws error.', () => {
@@ -79,5 +85,8 @@ describe('minorRadius(area, minorRadius)', () => {
   });
   it('Finds the major radius correctly.', () => {
     expect(ellipse.minorRadius(15, 5)).toBe(0.954929658551372);
+  });
+  it('Returned type is number.', () => {
+    expect(typeof ellipse.minorRadius(10, 5)).toBe('number');
   });
 });

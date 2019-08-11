@@ -14,6 +14,9 @@ describe('areaByRadius(radius)', () => {
   it('Finds the area correctly.', () => {
     expect(circle.areaByRadius(7)).toBe(153.93804002589985);
   });
+  it('Returned type is number.', () => {
+    expect(typeof circle.areaByRadius(7)).toBe('number');
+  });
 });
 describe('areaByDiameter(diameter)', () => {
   it('Providing a non-number throws error.', () => {
@@ -28,6 +31,9 @@ describe('areaByDiameter(diameter)', () => {
   });
   it('Finds the area correctly.', () => {
     expect(circle.areaByDiameter(14)).toBe(153.93804002589985);
+  });
+  it('Returned type is number.', () => {
+    expect(typeof circle.areaByDiameter(7)).toBe('number');
   });
 });
 describe('circumferenceByDiameter(diameter)', () => {
@@ -44,6 +50,9 @@ describe('circumferenceByDiameter(diameter)', () => {
   it('Finds the circumference correctly.', () => {
     expect(circle.circumferenceByDiameter(14)).toBe(43.982297150257105338477007365913);
   });
+  it('Returned type is number.', () => {
+    expect(typeof circle.circumferenceByDiameter(7)).toBe('number');
+  });
 });
 describe('circumferenceByRadius(radius)', () => {
   it('Providing a non-number throws error.', () => {
@@ -58,6 +67,9 @@ describe('circumferenceByRadius(radius)', () => {
   });
   it('Finds the circumference correctly.', () => {
     expect(circle.circumferenceByRadius(7)).toBe(43.982297150257105338477007365913);
+  });
+  it('Returned type is number.', () => {
+    expect(typeof circle.circumferenceByRadius(7)).toBe('number');
   });
 });
 describe('radiusByArea(area)', () => {
@@ -74,6 +86,9 @@ describe('radiusByArea(area)', () => {
   it('Finds the radius correctly.', () => {
     expect(circle.radiusByArea(69)).toBe(4.686510657907603);
   });
+  it('Returned type is number.', () => {
+    expect(typeof circle.radiusByArea(7)).toBe('number');
+  });
 });
 describe('diameterByRadius(radius)', () => {
   it('Providing a non-number throws error.', () => {
@@ -88,5 +103,8 @@ describe('diameterByRadius(radius)', () => {
   });
   it('Finds the diameter correctly.', () => {
     expect(circle.diameterByRadius(420)).toBe(840);
+  });
+  it('Returned type is number.', () => {
+    expect(typeof circle.diameterByRadius(7)).toBe('number');
   });
 });

@@ -9,13 +9,50 @@
 
 ![npm](https://img.shields.io/npm/dm/shapemath-js)
 
-## Install
+## Rewrite in Progress
+Version `3.x.x` of this package is a rewritten version. I am not currently done, and if you want all of the feautues use the `2.5.0` version until further notice.
+
+### Progress
+- [x] Circle
+- [x] Ellipse
+- [x] Kite
+- [x] Line
+- [x] Oval
+- [ ] Rectangle
+- [ ] Rhombus
+- [ ] Semicircle
+- [ ] Square
+- [ ] Trapezoid
+- [ ] Triangle
+- [ ] Cone
+- [ ] Cube
+- [ ] Cylinder
+- [ ] Hemisphere
+- [ ] Rectangular Prism
+- [ ] Sphere
+- [ ] Square Pyramid
+- [ ] Triangular Prism
+
+## Install and Usage
 ```
-npm install shapemath.js
+npm install shapemath-js
+```
+
+```js
+// With import statements.
+import { line } from 'shapemath-js';
+
+line.isParallel(0, 1, 2, 2, 0, 2, 2, 3);
+
+
+// Without import statements.
+const shapemath = require('shapemath-js');
+
+shapemath.line.isParallel(0, 1, 2, 2, 0, 2, 2, 3);
 ```
 
 ## Documentation
-You can read the documentation at https://shapemath-js.netlify.com/.
+You can read the documentation at https://shapemath-js.netlify.com/ to learn about all the functions.
 
 ## Tools Used
 - **TypeScript**: JavaScript Typings

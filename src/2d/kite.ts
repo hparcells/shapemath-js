@@ -31,8 +31,57 @@ export function perimeterBySides(side1: number, side2: number): number {
   return side1 + side1 + side2 + side2;
 }
 
-export class Kite {
-  public hi(): string {
-    return 'h';
+/**
+ * Finds the concruent angles of the kite given the other two angles.
+ * @param angle1 One given angle of the kite.
+ * @param angle2 The other angle of the kite.
+ * @returns The congruent angle.
+ */
+export function congruentAngle(angle1: number, angle2: number): number {
+  if(typeof angle1 !== 'number' || typeof angle2 !== 'number') {
+    throw new TypeError('Provided values must be typeof number.');
   }
+  if(angle1 < 0 || angle2 < 0) {
+    throw new TypeError('Provided values must be greater than zero.');
+  }
+
+  const remainder: number =  360 - (angle1 + angle2);
+
+  return remainder / 2;
+}
+
+/**
+ * Finds the final interior angle of the kite given the others.
+ * @param angle1 One angle of the kite.
+ * @param angle2 Another angle of the kite.
+ * @param angle3 The final angle of the kite.
+ * @returns The final interior angle.
+ */
+export function missingInteriorAngle(angle1: number, angle2: number, angle3: number): number {
+  if(typeof angle1 !== 'number' || typeof angle2 !== 'number' || typeof angle3 !== 'number') {
+    throw new TypeError('Provided values must be typeof number.');
+  }
+  if(angle1 < 0 || angle2 < 0 || angle3 < 0) {
+    throw new TypeError('Provided values must be greater than zero.');
+  }
+
+  return 360 - (angle1 + angle2 + angle3);
+}
+
+/**
+ * Finds the final exterior angle of the kite given the others.
+ * @param angle1 One angle of the kite.
+ * @param angle2 Another angle of the kite.
+ * @param angle3 The final angle of the kite.
+ * @returns The final exterior angle.
+ */
+export function missingExteriorAngle(angle1: number, angle2: number, angle3: number): number {
+  if(typeof angle1 !== 'number' || typeof angle2 !== 'number' || typeof angle3 !== 'number') {
+    throw new TypeError('Provided values must be typeof number.');
+  }
+  if(angle1 < 0 || angle2 < 0 || angle3 < 0) {
+    throw new TypeError('Provided values must be greater than zero.');
+  }
+
+  return 360 - (angle1 + angle2 + angle3);
 }
