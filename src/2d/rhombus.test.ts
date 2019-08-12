@@ -11,7 +11,7 @@ describe('area(diag1, diag2)', () => {
   });
   it('Providing negative numbers throws error.', () => {
     expect(() => {
-      rhombus.area(-5, 10,);
+      rhombus.area(-5, 10);
     }).toThrowError('Provided values must be greater than zero.');
     expect(() => {
       rhombus.area(5, -10);
