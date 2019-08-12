@@ -5,6 +5,8 @@ import * as line from './2d/line';
 import * as oval from './2d/oval';
 import * as rectangle from './2d/rectangle';
 import * as rhombus from './2d/rhombus';
+import * as semicircle from './2d/semicircle';
+import * as square from './2d/square';
 
 export {
   circle,
@@ -13,5 +15,7 @@ export {
   line,
   oval,
   rectangle,
-  rhombus
+  rhombus,
+  semicircle,
+  square
 };

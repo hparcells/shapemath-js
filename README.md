@@ -20,8 +20,8 @@ Version `3.x.x` of this package is a rewritten version. I am not currently done,
 - [x] Oval
 - [x] Rectangle
 - [x] Rhombus
-- [ ] Semicircle
-- [ ] Square
+- [x] Semicircle
+- [x] Square
 - [ ] Trapezoid
 - [ ] Triangle
 - [ ] Cone
