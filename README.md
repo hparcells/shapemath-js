@@ -18,8 +18,8 @@ Version `3.x.x` of this package is a rewritten version. I am not currently done,
 - [x] Kite
 - [x] Line
 - [x] Oval
-- [ ] Rectangle
-- [ ] Rhombus
+- [x] Rectangle
+- [x] Rhombus
 - [ ] Semicircle
 - [ ] Square
 - [ ] Trapezoid
