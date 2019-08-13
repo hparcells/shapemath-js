@@ -62,7 +62,7 @@ describe('areaBySides(base, height)', () => {
       triangle.areaBySides(5, 10, -15);
     }).toThrowError('Provided values must be greater than zero.');
     expect(() => {
-      triangle.areaBySides(-5, -10,-15);
+      triangle.areaBySides(-5, -10, -15);
     }).toThrowError('Provided values must be greater than zero.');
     expect(() => {
       triangle.areaBySides(5, -10, -15);
