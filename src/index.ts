@@ -7,6 +7,8 @@ import * as rectangle from './2d/rectangle';
 import * as rhombus from './2d/rhombus';
 import * as semicircle from './2d/semicircle';
 import * as square from './2d/square';
+import * as trapezoid from './2d/trapezoid';
+import * as triangle from './2d/triangle';
 
 export {
   circle,
@@ -17,5 +19,7 @@ export {
   rectangle,
   rhombus,
   semicircle,
-  square
+  square,
+  trapezoid,
+  triangle
 };
