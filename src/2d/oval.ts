@@ -44,6 +44,7 @@ export function majorRadius(area: number, minorRadius: number): number {
  */
 export function minorRadius(area: number, majorRadius: number): number {
   if(typeof area !== 'number' || typeof majorRadius !== 'number') {
+
     throw new TypeError('Provided values must be typeof number.');
   }
   if(area < 0 || majorRadius < 0) {

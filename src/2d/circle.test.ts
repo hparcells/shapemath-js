@@ -1,11 +1,6 @@
 import * as circle from './circle';
 
 describe('areaByRadius(radius)', () => {
-  it('Providing a non-number throws error.', () => {
-    expect(() => {
-      circle.areaByRadius('a' as any);
-    }).toThrowError('Provided radius must be typeof number.');
-  });
   it('Providing negative numbers throws error.', () => {
     expect(() => {
       circle.areaByRadius(-1);
@@ -19,11 +14,6 @@ describe('areaByRadius(radius)', () => {
   });
 });
 describe('areaByDiameter(diameter)', () => {
-  it('Providing a non-number throws error.', () => {
-    expect(() => {
-      circle.areaByDiameter('a' as any);
-    }).toThrowError('Provided diameter must be typeof number.');
-  });
   it('Providing negative numbers throws error.', () => {
     expect(() => {
       circle.areaByDiameter(-1);
@@ -37,11 +27,6 @@ describe('areaByDiameter(diameter)', () => {
   });
 });
 describe('circumferenceByDiameter(diameter)', () => {
-  it('Providing a non-number throws error.', () => {
-    expect(() => {
-      circle.circumferenceByDiameter('a' as any);
-    }).toThrowError('Provided diameter must be typeof number.');
-  });
   it('Providing negative numbers throws error.', () => {
     expect(() => {
       circle.circumferenceByDiameter(-1);
@@ -55,11 +40,6 @@ describe('circumferenceByDiameter(diameter)', () => {
   });
 });
 describe('circumferenceByRadius(radius)', () => {
-  it('Providing a non-number throws error.', () => {
-    expect(() => {
-      circle.circumferenceByRadius('a' as any);
-    }).toThrowError('Provided radius must be typeof number.');
-  });
   it('Providing negative numbers throws error.', () => {
     expect(() => {
       circle.circumferenceByRadius(-1);
@@ -73,11 +53,6 @@ describe('circumferenceByRadius(radius)', () => {
   });
 });
 describe('radiusByArea(area)', () => {
-  it('Providing a non-number throws error.', () => {
-    expect(() => {
-      circle.radiusByArea('a' as any);
-    }).toThrowError('Provided area must be typeof number.');
-  });
   it('Providing negative numbers throws error.', () => {
     expect(() => {
       circle.radiusByArea(-1);
@@ -91,11 +66,6 @@ describe('radiusByArea(area)', () => {
   });
 });
 describe('diameterByRadius(radius)', () => {
-  it('Providing a non-number throws error.', () => {
-    expect(() => {
-      circle.diameterByRadius('a' as any);
-    }).toThrowError('Provided radius must be typeof number.');
-  });
   it('Providing negative numbers throws error.', () => {
     expect(() => {
       circle.diameterByRadius(-1);

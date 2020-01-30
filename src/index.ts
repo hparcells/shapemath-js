@@ -10,6 +10,11 @@ import * as square from './2d/square';
 import * as trapezoid from './2d/trapezoid';
 import * as triangle from './2d/triangle';
 
+import * as cone from './3d/cone';
+
+import * as trigonometryConversions from './trigonometry/trigonometry-conversions';
+import * as dMath from './trigonometry/dmath';
+
 export {
   circle,
   ellipse,
@@ -21,5 +26,10 @@ export {
   semicircle,
   square,
   trapezoid,
-  triangle
+  triangle,
+
+  cone,
+
+  trigonometryConversions,
+  dMath
 };
