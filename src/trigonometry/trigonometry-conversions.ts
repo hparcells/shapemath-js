@@ -1,5 +1,5 @@
 /**
- * Converts radians to degrees.
+ * Converts degrees to radians.
  * @param degrees The amount of degrees to convert.
  */
 export function degreesToRadians(degrees: number) {
